@@ -1,0 +1,799 @@
+57,159 confirmed
+
+New York City New York US
+
+12,351 confirmed
+
+Westchester New York US
+
+12,024 confirmed
+
+Nassau New York US
+
+10,149 confirmed
+
+Suffolk New York US
+
+5,575 confirmed
+
+Cook Illinois US
+
+5,069 confirmed
+
+Wayne Michigan US
+
+4,866 confirmed
+
+Unassigned New Jersey US
+
+4,289 confirmed
+
+Rockland New York US
+
+4,099 confirmed
+
+Bergen New Jersey US
+
+4,045 confirmed
+
+Los Angeles California US
+
+3,476 confirmed
+
+Orleans Louisiana US
+
+3,029 confirmed
+
+Miami-Dade Florida US
+
+2,656 confirmed
+
+King Washington US
+
+2,617 confirmed
+
+Essex New Jersey US
+
+2,495 confirmed
+
+Jefferson Louisiana US
+
+2,430 confirmed
+
+Philadelphia Pennsylvania US
+
+2,397 confirmed
+
+Orange New York US
+
+2,270 confirmed
+
+Hudson New Jersey US
+
+2,183 confirmed
+
+Oakland Michigan US
+
+2,132 confirmed
+
+Fairfield Connecticut US
+
+2,010 confirmed
+
+Union New Jersey US
+
+1,896 confirmed
+
+Suffolk Massachusetts US
+
+1,870 confirmed
+
+Middlesex Massachusetts US
+
+1,766 confirmed
+
+Middlesex New Jersey US
+
+1,750 confirmed
+
+Passaic New Jersey US
+
+1,565 confirmed
+
+Broward Florida US
+
+1,458 confirmed
+
+Monmouth New Jersey US
+
+1,429 confirmed
+
+Marion Indiana US
+
+1,376 confirmed
+
+Snohomish Washington US
+
+1,371 confirmed
+
+Ocean New Jersey US
+
+1,332 confirmed
+
+Macomb Michigan US
+
+1,125 confirmed
+
+Clark Nevada US
+
+1,082 confirmed
+
+Morris New Jersey US
+
+1,049 confirmed
+
+Maricopa Arizona US
+
+1,039 confirmed
+
+Essex Massachusetts US
+
+1,019 confirmed
+
+Santa Clara California US
+
+966 confirmed
+
+San Diego California US
+
+955 confirmed
+
+Harris Texas US
+
+938 confirmed
+
+Norfolk Massachusetts US
+
+882 confirmed
+
+Fulton Georgia US
+
+875 confirmed
+
+Montgomery Pennsylvania US
+
+869 confirmed
+
+Milwaukee Wisconsin US
+
+831 confirmed
+
+Dallas Texas US
+
+809 confirmed
+
+Dutchess New York US
+
+781 confirmed
+
+Palm Beach Florida US
+
+757 confirmed
+
+District of Columbia District of Columbia US
+
+734 confirmed
+
+Erie New York US
+
+712 confirmed
+
+St. Louis Missouri US
+
+667 confirmed
+
+Worcester Massachusetts US
+
+663 confirmed
+
+Cuyahoga Ohio US
+
+656 confirmed
+
+Orange California US
+
+647 confirmed
+
+New Haven Connecticut US
+
+643 confirmed
+
+Denver Colorado US
+
+638 confirmed
+
+Shelby Tennessee US
+
+621 confirmed
+
+Plymouth Massachusetts US
+
+617 confirmed
+
+Davidson Tennessee US
+
+589 confirmed
+
+Orange Florida US
+
+584 confirmed
+
+Lehigh Pennsylvania US
+
+566 confirmed
+
+Montgomery Maryland US
+
+564 confirmed
+
+Mecklenburg North Carolina US
+
+563 confirmed
+
+Prince George's Maryland US
+
+560 confirmed
+
+Dougherty Georgia US
+
+549 confirmed
+
+Somerset New Jersey US
+
+546 confirmed
+
+Hampden Massachusetts US
+
+542 confirmed
+
+Lake Illinois US
+
+542 confirmed
+
+Delaware Pennsylvania US
+
+539 confirmed
+
+Hartford Connecticut US
+
+507 confirmed
+
+Unassigned Georgia US
+
+501 confirmed
+
+Unassigned Washington US
+
+498 confirmed
+
+Pierce Washington US
+
+497 confirmed
+
+San Francisco California US
+
+493 confirmed
+
+Riverside California US
+
+486 confirmed
+
+San Mateo California US
+
+484 confirmed
+
+Luzerne Pennsylvania US
+
+476 confirmed
+
+Allegheny Pennsylvania US
+
+476 confirmed
+
+Salt Lake Utah US
+
+466 confirmed
+
+Northampton Pennsylvania US
+
+464 confirmed
+
+Monroe New York US
+
+450 confirmed
+
+Bucks Pennsylvania US
+
+448 confirmed
+
+DeKalb Georgia US
+
+448 confirmed
+
+DuPage Illinois US
+
+441 confirmed
+
+Arapahoe Colorado US
+
+441 confirmed
+
+Franklin Ohio US
+
+440 confirmed
+
+Hillsborough Florida US
+
+438 confirmed
+
+Washtenaw Michigan US
+
+435 confirmed
+
+St. Tammany Louisiana US
+
+427 confirmed
+
+Baltimore Maryland US
+
+424 confirmed
+
+Bristol Massachusetts US
+
+418 confirmed
+
+Providence Rhode Island US
+
+397 confirmed
+
+Monroe Pennsylvania US
+
+389 confirmed
+
+East Baton Rouge Louisiana US
+
+386 confirmed
+
+Mercer New Jersey US
+
+385 confirmed
+
+Jefferson Colorado US
+
+384 confirmed
+
+Will Illinois US
+
+381 confirmed
+
+Cobb Georgia US
+
+377 confirmed
+
+Caddo Louisiana US
+
+373 confirmed
+
+Alameda California US
+
+372 confirmed
+
+Fairfax Virginia US
+
+351 confirmed
+
+Blaine Idaho US
+
+351 confirmed
+
+Travis Texas US
+
+349 confirmed
+
+Genesee Michigan US
+
+343 confirmed
+
+Camden New Jersey US
+
+341 confirmed
+
+Sacramento California US
+
+340 confirmed
+
+El Paso Colorado US
+
+332 confirmed
+
+Jefferson Alabama US
+
+329 confirmed
+
+Weld Colorado US
+
+329 confirmed
+
+Gwinnett Georgia US
+
+325 confirmed
+
+Tarrant Texas US
+
+316 confirmed
+
+ Puerto Rico US
+
+314 confirmed
+
+Eagle Colorado US
+
+313 confirmed
+
+Baltimore City Maryland US
+
+307 confirmed
+
+Ada Idaho US
+
+306 confirmed
+
+Duval Florida US
+
+304 confirmed
+
+San Bernardino California US
+
+301 confirmed
+
+Onondaga New York US
+
+294 confirmed
+
+Burlington New Jersey US
+
+290 confirmed
+
+St. John the Baptist Louisiana US
+
+289 confirmed
+
+Lee Florida US
+
+289 confirmed
+
+Pinellas Florida US
+
+283 confirmed
+
+Barnstable Massachusetts US
+
+280 confirmed
+
+Pima Arizona US
+
+276 confirmed
+
+Contra Costa California US
+
+276 confirmed
+
+Lafayette Louisiana US
+
+270 confirmed
+
+Unassigned Massachusetts US
+
+268 confirmed
+
+Sumner Tennessee US
+
+267 confirmed
+
+Albany New York US
+
+260 confirmed
+
+Adams Colorado US
+
+258 confirmed
+
+Wake North Carolina US
+
+254 confirmed
+
+Bexar Texas US
+
+254 confirmed
+
+Denton Texas US
+
+249 confirmed
+
+Anne Arundel Maryland US
+
+246 confirmed
+
+Dane Wisconsin US
+
+245 confirmed
+
+Navajo Arizona US
+
+245 confirmed
+
+New Castle Delaware US
+
+244 confirmed
+
+Lake Indiana US
+
+243 confirmed
+
+Ulster New York US
+
+242 confirmed
+
+Hennepin Minnesota US
+
+240 confirmed
+
+Yakima Washington US
+
+239 confirmed
+
+St. Louis City Missouri US
+
+237 confirmed
+
+Oklahoma Oklahoma US
+
+232 confirmed
+
+Lancaster Pennsylvania US
+
+231 confirmed
+
+Charleston South Carolina US
+
+228 confirmed
+
+Jefferson Kentucky US
+
+227 confirmed
+
+Collin Texas US
+
+226 confirmed
+
+Chester Pennsylvania US
+
+222 confirmed
+
+Ascension Louisiana US
+
+222 confirmed
+
+Cumberland Maine US
+
+221 confirmed
+
+Fort Bend Texas US
+
+220 confirmed
+
+Hamilton Indiana US
+
+216 confirmed
+
+Putnam New York US
+
+213 confirmed
+
+Berkshire Massachusetts US
+
+212 confirmed
+
+Out of TN Tennessee US
+
+211 confirmed
+
+Washington Oregon US
+
+210 confirmed
+
+St. Charles Louisiana US
+
+206 confirmed
+
+Honolulu Hawaii US
+
+206 confirmed
+
+Lucas Ohio US
+
+204 confirmed
+
+Summit Utah US
+
+201 confirmed
+
+Berks Pennsylvania US
+
+200 confirmed
+
+Richland South Carolina US
+
+199 confirmed
+
+Williamson Tennessee US
+
+196 confirmed
+
+St. Bernard Louisiana US
+
+195 confirmed
+
+Clayton Georgia US
+
+192 confirmed
+
+Mahoning Ohio US
+
+191 confirmed
+
+Osceola Florida US
+
+189 confirmed
+
+Collier Florida US
+
+185 confirmed
+
+Lafourche Louisiana US
+
+184 confirmed
+
+Washoe Nevada US
+
+182 confirmed
+
+Spokane Washington US
+
+179 confirmed
+
+Sussex New Jersey US
+
+178 confirmed
+
+Unassigned Michigan US
+
+178 confirmed
+
+Hamilton Ohio US
+
+177 confirmed
+
+Ventura California US
+
+177 confirmed
+
+Chittenden Vermont US
+
+175 confirmed
+
+Coconino Arizona US
+
+175 confirmed
+
+Tulsa Oklahoma US
+
+175 confirmed
+
+Whatcom Washington US
+
+174 confirmed
+
+Unassigned Connecticut US
+
+173 confirmed
+
+San Joaquin California US
+
+171 confirmed
+
+Douglas Colorado US
+
+171 confirmed
+
+Johnson Kansas US
+
+170 confirmed
+
+Rockingham New Hampshire US
+
+169 confirmed
+
+Gloucester New Jersey US
+
+166 confirmed
+
+Howard Maryland US
+
+164 confirmed
+
+Marion Oregon US
+
+163 confirmed
+
+Hillsborough New Hampshire US
+
+163 confirmed
+
+Bernalillo New Mexico US
+
+160 confirmed
+
+Seminole Florida US
+
+160 confirmed
+
+Multnomah Oregon US
+
+159 confirmed
+
+Durham North Carolina US
+
+158 confirmed
+
+Kern California US
+
+156 confirmed
+
+Sullivan New York US
+
+155 confirmed
+
+Summit Ohio US
+
+154 confirmed
+
+Bartow Georgia US
+
+154 confirmed
+
+Kane Illinois US
+
+154 confirmed
+
+Greenville South Carolina US
+
+153 confirmed
+
+Skagit Washington US
+
+148 confirmed
+
+Unassigned Nevada US
+
+144 confirmed
+
+Unassigned Colorado US
+
+143 confirmed
+
+Carroll Georgia US
+
+141 confirmed
+
+Litchfield Connecticut US
