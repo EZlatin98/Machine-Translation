@@ -16,6 +16,7 @@ bad_format_text = []
 bad_format_files = ['test0.txt', 'test25.txt', 'test50.txt', 'test75.txt',
          'test100.txt', 'test125.txt', 'test150.txt', 'test175.txt',
          'test200.txt', 'test225.txt', 'test250.txt']
+# bad_format_files = []
 good_format_files = ['4-21test0.txt']
 for file in bad_format_files:
     with open(file, encoding="utf-8") as fp:
@@ -62,4 +63,4 @@ print("bad_format", bad_format)
 
 # %%
 
-print(bad_format_text[0])
+# print(bad_format_text[0])

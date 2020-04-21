@@ -37,9 +37,11 @@ def __main__():
     random.seed(4)
     fp = open(f'4-21test{0}.txt', 'w', encoding='utf-8')
     for i, line in enumerate(filter_csv()):
+        if i <= 100:
+            continue
         if i > 500:
             break
-        if i % 2 == 0:
+        if i % 25 == 0:
             fp.close()
             fp = open(f'4-21test{i}.txt', 'w', encoding='utf-8')
         print(i)
