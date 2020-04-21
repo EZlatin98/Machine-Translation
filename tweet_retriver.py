@@ -11,6 +11,8 @@ import csv
 # 'parse_list', 'place', 'retweet', 'retweet_count', 'retweeted', 'retweeted_status', 'retweets', 'source', 'source_url', 'text',
 # 'truncated', 'user']
 
+import json
+
 # difference between geo, place,
 
 
@@ -29,17 +31,17 @@ query = ' OR '.join(['coronavirus', 'covid-19', 'covid', 'illness', 'mask', 'fac
 
 def search_and_print(query, max_items, fp, lat, long, city):
     for tweet in tw.Cursor(api.search, tweet_mode="extended",lang="en", q=query, result_type="recent", include_entities = "false", geocode=f"{lat},{long},25mi").items(max_items):
-        fp.write(city + ',' + str(tweet._json) + '\n')
+        fp.write(city + ',' + json.dumps(tweet._json) + '\n')
 
 def __main__():
     random.seed(4)
-    fp = open(f'test{0}.txt', 'w', encoding='utf-8')
+    fp = open(f'4-21test{0}.txt', 'w', encoding='utf-8')
     for i, line in enumerate(filter_csv()):
         if i > 500:
             break
-        if i % 25 == 0:
+        if i % 2 == 0:
             fp.close()
-            fp = open(f'test{i}.txt', 'w', encoding='utf-8')
+            fp = open(f'4-21test{i}.txt', 'w', encoding='utf-8')
         print(i)
         search_and_print(query, 100, fp,line['lat'], line['lng'], f"{line['city']} {line['state_id']}")
 
