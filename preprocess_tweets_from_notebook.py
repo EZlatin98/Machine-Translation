@@ -6,7 +6,7 @@
 
 import json
 import re
-import pandas as pd 
+import pandas as pd
 import numpy as np
 
 
@@ -19,11 +19,12 @@ tweets = []
 count = 0
 bad_format = 0
 bad_format_text = []
-files = ['test.txt', 'test0.txt', 'test25.txt', 'test50.txt','test75.txt', 
+files = ['test0.txt', 'test25.txt', 'test50.txt','test75.txt',
          'test100.txt','test125.txt', 'test150.txt','test175.txt',
          'test200.txt','test225.txt','test250.txt']
+good_format_files = [f'4-21test{25*i}.txt' for i in range(11)]
 for file in files:
-    with open(file) as fp:
+    with open(file, encoding="utf-8") as fp:
         line = fp.readline()
         while line:
             count += 1
@@ -46,6 +47,17 @@ for file in files:
 #         print(y["full_text"])
     #     while line:
     #         line = fp.readline()
+
+
+for file in good_format_files:
+    with open(file, encoding="utf-8") as fp:
+        line = fp.readline()
+        while line:
+            start = line.find("{")
+            line = line[start:]
+            y = json.loads(line)
+            tweets.append(y)
+            line = fp.readline()
 
 
 # In[3]:
@@ -75,9 +87,6 @@ county_pop.head()
 
 
 # In[ ]:
-
-
-
 
 
 # In[14]:
