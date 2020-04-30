@@ -35,15 +35,15 @@ def search_and_print(query, max_items, fp, lat, long, city):
 
 def __main__():
     random.seed(4)
-    fp = open(f'4-21test{0}.txt', 'w', encoding='utf-8')
+    fp = open(f'4-30test{0}.txt', 'w', encoding='utf-8')
     for i, line in enumerate(filter_csv()):
-        if i <= 100:
+        if i < 200:
             continue
         if i > 500:
             break
         if i % 25 == 0:
             fp.close()
-            fp = open(f'4-21test{i}.txt', 'w', encoding='utf-8')
+            fp = open(f'4-30test{i}.txt', 'w', encoding='utf-8')
         print(i)
         search_and_print(query, 100, fp,line['lat'], line['lng'], f"{line['city']} {line['state_id']}")
 
