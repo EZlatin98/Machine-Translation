@@ -22,7 +22,7 @@ bad_format_text = []
 files = ['test0.txt', 'test25.txt', 'test50.txt','test75.txt',
          'test100.txt','test125.txt', 'test150.txt','test175.txt',
          'test200.txt','test225.txt','test250.txt']
-good_format_files = [f'4-21test{25*i}.txt' for i in range(11)]
+good_format_files = [f'4-21test{25*i}.txt' for i in range(11)] + [f'4-30test{25*i}.txt' for i in range(11)]
 for file in files:
     with open(file, encoding="utf-8") as fp:
         line = fp.readline()
