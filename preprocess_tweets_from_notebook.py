@@ -100,7 +100,7 @@ for file in good_format_files:
 county_pop = pd.read_csv("county_pop.csv")
 county_pop.head()
 
-# for i in range(5):
+# for i in range(20):
 #     pprint.pprint(tweets[i])
 
 cases_dict = {}
@@ -127,9 +127,11 @@ def clean_tweets():
 
 def format_tweet_text(text):
     text = text.lower()
+    text = re.sub(r'http\S+', '', text) # Remove urls
     translator = str.maketrans('', '', string.punctuation)
     text = text.translate(translator)
-    re.sub(r'http\S+', '', text) # Remove urls
+    text = text.replace('"', '')
+    text = text.replace("'", '')
 
     words = text.split()
     # Remove the word RT, any words that don't contain ascii characters or contain digit characters
@@ -140,7 +142,12 @@ def get_cleaned_tweets():
     out_tweets = []
     for i, tweet in enumerate(tweets):
         cleaned_tweet = dict()
-        cleaned_tweet["text"] = format_tweet_text(tweet['full_text'])
+        if "retweeted_status" in tweet:
+            tweet["full_text"] = tweet["retweeted_status"]["full_text"]
+        if "quoted_status" in tweet:
+            tweet["full_text"] += " " + tweet["quoted_status"]["full_text"]
+
+        cleaned_tweet["text"] = format_tweet_text(tweet["full_text"])
         cleaned_tweet["date"] = tweet["date"]
         cleaned_tweet["favorite_count"] = tweet["favorite_count"]
         cleaned_tweet["is_retweet"] = "retweeted_status" in tweet
@@ -150,7 +157,7 @@ def get_cleaned_tweets():
     return out_tweets
 
 
-# print(get_cleaned_tweets()[:5])
+# print(get_cleaned_tweets()[:20])
 # print("Done!")
-
+#
 
