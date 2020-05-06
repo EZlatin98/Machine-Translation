@@ -27,15 +27,14 @@ from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 
 import spacy
-spacy.load('en')
+spacy.load('en_core_web_sm')
 lemmatizer = spacy.lang.en.English()
-
 
 # In[382]:
 
-
-a = np.load("embeddings.npz")
+a = np.load("embeddings.npz",allow_pickle=True)
 real_word2ind = {}
+foo = a["word2ind"]
 word2ind = a["word2ind"].flatten()[0]
 for k in word2ind:
     real_word2ind[word2ind[k]] = k
@@ -85,7 +84,7 @@ def simple_classifiers_word2vec_pca(df, n_comps):
     predicted_svm = clf_svm.predict(X_test)
     print("Linear SVM Accuracy:", metrics.accuracy_score(y_test, predicted_svm))
 
-simple_classifiers_word2vec_pca(df_edu, 7)
+# simple_classifiers_word2vec_pca(df_edu, 7)
 
 # labels_color_map = {
 #    0: '#20b2aa', 1: '#ff7373', 2: '#ffe4e1', 3: '#005073', 4: '#4d0404',
@@ -117,7 +116,6 @@ def print_topfeatures(vectorizer, clf):
     print("Words most indicative of fake news: %s" % (" ".join(feature_names[j] for j in topfeatures_fake)))
 
 def simple_classifiers(df, vectorizer):
-    
     vectorizer = vectorizer.fit(df['text'])
     
     a, b, c, d = train_test_split(range(1, 41), range(1, 41), test_size=0.2, random_state=42)
