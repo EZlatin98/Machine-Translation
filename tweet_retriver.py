@@ -47,6 +47,7 @@ def __main__():
         print(i)
         search_and_print(query, 100, fp,line['lat'], line['lng'], f"{line['city']} {line['state_id']}")
 
+
 def filter_csv():
     new_list = []
     with open('uscities.csv', newline='') as csvfile:
@@ -57,5 +58,6 @@ def filter_csv():
 
     random.shuffle(new_list)
     return new_list
+
 
 __main__()

@@ -100,8 +100,8 @@ for file in good_format_files:
 county_pop = pd.read_csv("county_pop.csv")
 county_pop.head()
 
-for i in range(5):
-    pprint.pprint(tweets[i])
+# for i in range(5):
+#     pprint.pprint(tweets[i])
 
 cases_dict = {}
 with open('confirmed_covid.csv', newline='') as csvfile:
