@@ -150,7 +150,7 @@ def get_cleaned_tweets():
     return out_tweets
 
 
-print(get_cleaned_tweets()[:5])
-print("Done!")
+# print(get_cleaned_tweets()[:5])
+# print("Done!")
 
 
